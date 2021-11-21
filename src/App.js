@@ -1,15 +1,16 @@
 import "./App.css";
-import Weather from "./Weather.js";
+import "./Weather.js";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> Hello world</h1>
-        <Weather />
-      </header>
+      <div className="forecast" id="forecast"></div>
+      <div>
+        <footer>
+          <a href="https://github.com/Xandy09/weather-app">Open Source Code</a>{" "}
+          by Xandy Lundberg
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
