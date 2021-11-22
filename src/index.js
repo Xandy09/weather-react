@@ -4,9 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { StrictMode } from "react";
-import ReactDOM from "react-dom";
-
-import App from "./App";
 import Weather from "./Weather";
 
 ReactDOM.render(
